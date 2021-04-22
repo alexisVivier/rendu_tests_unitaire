@@ -4,12 +4,13 @@ class FormatString():
 
     def format_string_with_line_breaks(slef, string, max_size):
         result = ""
-        for index, char in enumerate(string):
-            if char == " ":
-                result += '\n'
-            result += char
+        lines = []
+        string_array = string.split(' ')
+        for index, word in enumerate(string_array):
+            if len(word) < max_size:
+                
 
-        print(result)
+
 
 
     def format_string_with_line_breaks_with_hyphen(self, string, max_size):
