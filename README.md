@@ -8,7 +8,7 @@
 
 ## 4 - Réponse B
 
-## 5 - Réponse B
+## 5 - Réponse B & C
 
 # Exercice 1
 
