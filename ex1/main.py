@@ -3,7 +3,6 @@ from unittest import result
 from string_manipulation import StringManipulation
 
 class TestEx1(unittest.TestCase):
-
     def test_list_to_string(self):
         string_manipulation = StringManipulation()
         array = ["Hello", "world"]
